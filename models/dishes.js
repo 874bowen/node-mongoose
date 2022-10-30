@@ -12,7 +12,7 @@ const commentSchema = new Schema({
           type: String,
           required: true
      },
-     AuthenticatorResponse: {
+     author: {
           type: String,
           required: true
      }
